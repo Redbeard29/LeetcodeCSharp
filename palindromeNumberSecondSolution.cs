@@ -4,7 +4,7 @@ namespace CSharp
 {
     public class palindromeNumberSecondSolution
     {
-        public bool isPalindrome(int x){
+        public static bool isPalindrome(int x){
 
             if(x < 0){
                 return false;

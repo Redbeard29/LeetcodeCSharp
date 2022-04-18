@@ -5,7 +5,7 @@ namespace CSharp
 {
     public class palindromeNumberFirstSolution
     {
-        public bool isPalindrome(int x){
+        public static bool isPalindrome(int x){
             string intAsString = x.ToString();
             StringBuilder reversedInt = new StringBuilder();
             
