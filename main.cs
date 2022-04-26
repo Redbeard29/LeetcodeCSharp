@@ -5,8 +5,9 @@ namespace CSharp
     public class main
     {
         static void Main(string[] args){
-            int num = 123;
-            Console.WriteLine(palindromeNumberSecondSolution.isPalindrome(num));
+            string[] strs = {"flower", "flow", "flight"};
+            string prefix = longestCommonPrefix.LongestCommonPrefix(strs);
+            Console.WriteLine(prefix);
         }
     }
 }
